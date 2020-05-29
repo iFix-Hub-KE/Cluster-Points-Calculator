@@ -31,4 +31,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav" />
 
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="617dp"
+        android:id="@+id/container"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
