@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="69dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:text="@string/instructs"
         android:textColor="#000"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="@drawable/spinner_border"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -40,61 +48,91 @@
         app:layout_constraintStart_toStartOf="@+id/spinner"
         app:layout_constraintTop_toBottomOf="@+id/spinner">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:text="Math A/ Math B" />
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal">
 
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:id="@+id/subj1"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7dp"
+                android:textColor="#000"
+                android:text="Math A/ Math B" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:text="Eng/Kisw/French" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border"
+                android:id="@+id/subj1"/>
 
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:id="@+id/subj2"/>
+        </LinearLayout>
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:text="Chem/Phy/Bio" />
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal">
 
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:id="@+id/subj3"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000"
+                android:layout_marginRight="7dp"
+                android:text="Eng/Kisw/French" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:background="@drawable/spinner_border"
+                android:layout_height="wrap_content"
+                android:id="@+id/subj2"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:text="Any Other" />
+        </LinearLayout>
 
-        <Spinner
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:id="@+id/subj4"/>
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7dp"
+                android:text="Chem/Phy/Bio" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border"
+                android:id="@+id/subj3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7dp"
+                android:text="Any Other" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border"
+                android:id="@+id/subj4"/>
+        </LinearLayout>
+
     </LinearLayout>
 
     <Button
@@ -126,5 +164,5 @@
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

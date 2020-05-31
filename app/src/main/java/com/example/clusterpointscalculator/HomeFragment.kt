@@ -31,10 +31,10 @@ class HomeFragment : Fragment(){
         //!! means the inflater should not be null
         val view: View = inflater!!.inflate(R.layout.home_fragment,container,false)
 
-        val spinner = view.findViewById<Spinner>(R.id.spinner)
+        val spinner1 = view.findViewById<Spinner>(R.id.spinner)
         val options = arrayOf("Cluster 1","Cluster 8","Cluster 11")
-        spinner?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options)
-        spinner?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
+        spinner1?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options)
+        spinner1?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 print("Error")
             }
@@ -47,6 +47,80 @@ class HomeFragment : Fragment(){
             ) {
                 val selected = parent?.getItemAtPosition(position).toString()
                 Toast.makeText(activity,selected,Toast.LENGTH_SHORT).show()
+            }
+
+        }
+
+        val spinnner2 = view.findViewById<Spinner>(R.id.subj1)
+        val grades = arrayOf("A","A-","B+","B","B-","C+","C","C-","D+","D","D-","E")
+        spinnner2?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinnner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                val gradeSelected = parent?.getItemAtPosition(position)
+                Toast.makeText(activity,gradeSelected.toString(),Toast.LENGTH_SHORT).show()
+            }
+
+        }
+
+        val spinner3 = view.findViewById<Spinner>(R.id.subj2)
+        spinner3?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinner3.onItemSelectedListener = object :AdapterView.OnItemSelectedListener{
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                val gradeSelected = parent?.getItemAtPosition(position)
+            }
+
+        }
+
+        val spinner4 = view.findViewById<Spinner>(R.id.subj3)
+        spinner4?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinner4.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                val gradeSelected = parent?.getItemAtPosition(position)
+            }
+
+        }
+
+        val spinner5 = view.findViewById<Spinner>(R.id.subj4)
+        spinner5?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinner5.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                val gradeSelected = parent?.getItemAtPosition(position)
             }
 
         }
