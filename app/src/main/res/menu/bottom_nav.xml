@@ -4,9 +4,9 @@
 
     <item android:title="Home" android:icon="@drawable/home"
         app:showAsAction="ifRoom"
-        android:id="@+id/home"/>
+        android:id="@+id/bottom_navigation_home"/>
     <item android:title="Facts" android:icon="@drawable/book"
         app:showAsAction="ifRoom"
-        android:id="@+id/facts"/>
+        android:id="@+id/bottom_navigation_facts"/>
 
 </menu>

@@ -2,4 +2,10 @@
     <string name="app_name">Cluster Points Calculator</string>
     <string name="instructs">To calculate your cluster points, you first have to select the cluster group that you want i.e. Cluster 1, Cluster 11 e.t.c, then you can then Fill in the points you score corresponding to eachcluster subject/</string>
     <string name="calculate">Calculate</string>
+
+
+    <string name="consent">By creating an account you agree to the <u>Terms of Use</u> and <u>Privacy Policy</u></string>
+
+
+    <string name="i_am_already_a_member"><u>I am already a Member</u></string>
 </resources>
