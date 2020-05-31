@@ -130,6 +130,13 @@ class HomeFragment : Fragment(){
 
         }
 
+        calculate.setOnClickListener {
+
+
+            result.text = calculatePoints(70,selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
+                convertSubj(gradeSelected3),convertSubj(gradeSelected4)).toString()
+        }
+
         return view
     }
 
