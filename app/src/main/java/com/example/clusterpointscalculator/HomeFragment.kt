@@ -14,7 +14,12 @@ class HomeFragment : Fragment(){
 
     val TAG = "HomeFragment"
 
-    lateinit var spinner: Spinner
+    private lateinit var selected:String
+    private lateinit var gradeSelected1:String
+    private lateinit var gradeSelected2:String
+    private lateinit var gradeSelected3:String
+    private lateinit var gradeSelected4:String
+
 
     override fun onAttach(context: Context) {
         Log.d(TAG,"onAttach")
@@ -45,7 +50,7 @@ class HomeFragment : Fragment(){
                 position: Int,
                 id: Long
             ) {
-                val selected = parent?.getItemAtPosition(position).toString()
+                selected = parent?.getItemAtPosition(position).toString()
                 Toast.makeText(activity,selected,Toast.LENGTH_SHORT).show()
             }
 
@@ -65,8 +70,8 @@ class HomeFragment : Fragment(){
                 position: Int,
                 id: Long
             ) {
-                val gradeSelected = parent?.getItemAtPosition(position)
-                Toast.makeText(activity,gradeSelected.toString(),Toast.LENGTH_SHORT).show()
+                 gradeSelected1 = parent?.getItemAtPosition(position).toString()
+                //Toast.makeText(activity,gradeSelected.toString(),Toast.LENGTH_SHORT).show()
             }
 
         }
@@ -84,7 +89,7 @@ class HomeFragment : Fragment(){
                 position: Int,
                 id: Long
             ) {
-                val gradeSelected = parent?.getItemAtPosition(position)
+                 gradeSelected2 = parent?.getItemAtPosition(position).toString()
             }
 
         }
@@ -102,7 +107,7 @@ class HomeFragment : Fragment(){
                 position: Int,
                 id: Long
             ) {
-                val gradeSelected = parent?.getItemAtPosition(position)
+                 gradeSelected3 = parent?.getItemAtPosition(position).toString()
             }
 
         }
@@ -120,13 +125,27 @@ class HomeFragment : Fragment(){
                 position: Int,
                 id: Long
             ) {
-                val gradeSelected = parent?.getItemAtPosition(position)
+                 gradeSelected4 = parent?.getItemAtPosition(position).toString()
             }
 
         }
 
         return view
     }
+
+    fun calculatePoints(totalPoints:Int,cluster:String,subj1:Int,subj2:Int,subj3:Int,subj4:Int) : Double{
+
+        var x = subj1+subj2+subj3+subj4
+
+        var z = ((x/48)*(totalPoints/84))
+
+        var z_sqrt = Math.sqrt(z.toDouble())
+
+        var c = z_sqrt*48
+
+        return c
+    }
+
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         Log.d(TAG,"onActivityCreated")
@@ -167,6 +186,4 @@ class HomeFragment : Fragment(){
         Log.d(TAG,"onDetach")
         super.onDetach()
     }
-
-    fun calculatePoints(){}
 }
