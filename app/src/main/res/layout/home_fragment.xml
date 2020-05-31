@@ -47,15 +47,12 @@
             android:layout_marginRight="15dp"
             android:text="Math A/ Math B" />
 
-        <EditText
+        <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="#000"
-            android:hint="A"
-            android:id="@+id/clusterSubj1"
-            android:textColor="#000" />
+            android:id="@+id/subj1"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -64,15 +61,12 @@
             android:layout_marginRight="15dp"
             android:text="Eng/Kisw/French" />
 
-        <EditText
+        <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="#000"
-            android:hint="A"
-            android:id="@+id/clusterSubj2"
-            android:textColor="#000" />
+            android:id="@+id/subj2"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -81,15 +75,12 @@
             android:layout_marginRight="15dp"
             android:text="Chem/Phy/Bio" />
 
-        <EditText
+        <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="#000"
-            android:hint="A"
-            android:id="@+id/clusterSubj3"
-            android:textColor="#000" />
+            android:id="@+id/subj3"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -98,15 +89,12 @@
             android:layout_marginRight="15dp"
             android:text="Any Other" />
 
-        <EditText
+        <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="#000"
-            android:id="@+id/clusterSubj4"
-            android:hint="A"
-            android:textColor="#000" />
+            android:id="@+id/subj4"/>
     </LinearLayout>
 
     <Button

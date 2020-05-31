@@ -33,7 +33,7 @@ class HomeFragment : Fragment(){
 
         val spinner = view.findViewById<Spinner>(R.id.spinner)
         val options = arrayOf("Cluster 1","Cluster 8","Cluster 11")
-        spinner?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options) as SpinnerAdapter
+        spinner?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options)
         spinner?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 print("Error")
@@ -94,11 +94,5 @@ class HomeFragment : Fragment(){
         super.onDetach()
     }
 
-    fun calculatePoints(){
-        var subj1 = clusterSubj1.text
-        var subj2 = clusterSubj2.text
-        var subj3 = clusterSubj3.text
-        var subj4 = clusterSubj4.text
-
-    }
+    fun calculatePoints(){}
 }

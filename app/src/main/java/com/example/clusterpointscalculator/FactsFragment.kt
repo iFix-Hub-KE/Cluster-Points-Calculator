@@ -70,10 +70,6 @@ class FactsFragment : Fragment(){
     }
 
     fun calculatePoints(){
-        var subj1 = clusterSubj1.text
-        var subj2 = clusterSubj2.text
-        var subj3 = clusterSubj3.text
-        var subj4 = clusterSubj4.text
 
     }
 }
