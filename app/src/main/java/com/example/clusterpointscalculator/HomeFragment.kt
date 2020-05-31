@@ -147,21 +147,22 @@ class HomeFragment : Fragment(){
     }
 
     fun convertSubj(subj:String): Int {
+        var points:Int = 0
         when(subj){
-            "A" -> return 12
-            "A-" -> return 11
-            "B+" -> return 10
-            "B" -> return 9
-            "B-" -> return 8
-            "C+" -> return 7
-            "C" -> return 6
-            "C-" -> return 5
-            "D+" -> return 4
-            "D" -> return 3
-            "D-" -> return 2
-            "E" -> return 1
+            "A" -> points = 12
+            "A-" -> points =  11
+            "B+" -> points =  10
+            "B" -> points =  9
+            "B-" -> points =  8
+            "C+" -> points =  7
+            "C" -> points =  6
+            "C-" -> points =  5
+            "D+" -> points =  4
+            "D" -> points =  3
+            "D-" -> points =  2
+            "E" -> points =  1
             }
-        return 1
+        return points
     }
 
 
