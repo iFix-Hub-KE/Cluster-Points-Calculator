@@ -146,6 +146,24 @@ class HomeFragment : Fragment(){
         return c
     }
 
+    fun convertSubj(subj:String): Int {
+        when(subj){
+            "A" -> return 12
+            "A-" -> return 11
+            "B+" -> return 10
+            "B" -> return 9
+            "B-" -> return 8
+            "C+" -> return 7
+            "C" -> return 6
+            "C-" -> return 5
+            "D+" -> return 4
+            "D" -> return 3
+            "D-" -> return 2
+            "E" -> return 1
+            }
+        return 1
+    }
+
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         Log.d(TAG,"onActivityCreated")
