@@ -138,6 +138,10 @@ class HomeFragment : Fragment(){
         }
         calculateC.setOnClickListener(View.OnClickListener {
 
+            when(selected){
+
+            }
+
             resultC.text = calculatePoints(70,selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
                 convertSubj(gradeSelected3),convertSubj(gradeSelected4)).toString()
         })

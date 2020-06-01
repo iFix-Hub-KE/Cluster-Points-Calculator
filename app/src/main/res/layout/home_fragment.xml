@@ -60,6 +60,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="7dp"
                 android:textColor="#000"
+                android:id="@+id/subject1"
                 android:text="Math A/ Math B" />
 
             <Spinner
@@ -81,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:textColor="#000"
+                android:id="@+id/subject2"
                 android:layout_marginRight="7dp"
                 android:text="Eng/Kisw/French" />
             <Spinner
@@ -101,6 +103,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="#000"
+                android:id="@+id/subject3"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="7dp"
                 android:text="Chem/Phy/Bio" />
@@ -123,6 +126,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="#000"
+                android:id="@+id/subject4"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="7dp"
                 android:text="Any Other" />
