@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.home_fragment.*
+import kotlin.math.sqrt
 
 class HomeFragment : Fragment(){
 
@@ -19,6 +20,9 @@ class HomeFragment : Fragment(){
     private lateinit var gradeSelected2:String
     private lateinit var gradeSelected3:String
     private lateinit var gradeSelected4:String
+    private lateinit var calculateC: Button
+    private lateinit var resultC: TextView
+
 
 
     override fun onAttach(context: Context) {
@@ -31,10 +35,13 @@ class HomeFragment : Fragment(){
         super.onCreate(savedInstanceState)
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         Log.d(TAG,"onCreateView")
         //!! means the inflater should not be null
         val view: View = inflater!!.inflate(R.layout.home_fragment,container,false)
+
+        calculateC = view.findViewById(R.id.calculate)
+        resultC = view.findViewById(R.id.result)
 
         val spinner1 = view.findViewById<Spinner>(R.id.spinner)
         val options = arrayOf("Cluster 1","Cluster 8","Cluster 11")
@@ -129,26 +136,24 @@ class HomeFragment : Fragment(){
             }
 
         }
+        calculateC.setOnClickListener(View.OnClickListener {
 
-        calculate.setOnClickListener {
-
-
-            result.text = calculatePoints(70,selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
+            resultC.text = calculatePoints(70,selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
                 convertSubj(gradeSelected3),convertSubj(gradeSelected4)).toString()
-        }
+        })
 
         return view
     }
 
-    fun calculatePoints(totalPoints:Int,cluster:String,subj1:Int,subj2:Int,subj3:Int,subj4:Int) : Double{
+    fun calculatePoints(totalPoints:Int,cluster:String,subj1:Int,subj2:Int,subj3:Int,subj4:Int) : Double {
 
-        var x = subj1+subj2+subj3+subj4
+        var x:Double = (subj1+subj2+subj3+subj4).toDouble()
 
-        var z = ((x/48)*(totalPoints/84))
+        var z:Double = x/48 * ((totalPoints.toDouble())/84)
 
-        var z_sqrt = Math.sqrt(z.toDouble())
+        var z_sqrt:Double = sqrt(z)
 
-        var c = z_sqrt*48
+        var c:Double = z_sqrt*48
 
         return c
     }
