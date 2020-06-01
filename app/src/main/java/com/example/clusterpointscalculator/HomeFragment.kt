@@ -22,6 +22,12 @@ class HomeFragment : Fragment(){
     private lateinit var gradeSelected4:String
     private lateinit var calculateC: Button
     private lateinit var resultC: TextView
+    private lateinit var subject1:TextView
+    private lateinit var subject2:TextView
+    private lateinit var subject3:TextView
+    private lateinit var subject4:TextView
+
+
 
 
 
@@ -42,9 +48,13 @@ class HomeFragment : Fragment(){
 
         calculateC = view.findViewById(R.id.calculate)
         resultC = view.findViewById(R.id.result)
+        subject1 = view.findViewById(R.id.subject1)
+        subject2 = view.findViewById(R.id.subject2)
+        subject3 = view.findViewById(R.id.subject3)
+        subject4 = view.findViewById(R.id.subject4)
 
         val spinner1 = view.findViewById<Spinner>(R.id.spinner)
-        val options = arrayOf("Cluster 1","Cluster 8","Cluster 11")
+        val options = arrayOf("Cluster 2","Cluster 8","Cluster 11","Cluster 1")
         spinner1?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options)
         spinner1?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -59,6 +69,13 @@ class HomeFragment : Fragment(){
             ) {
                 selected = parent?.getItemAtPosition(position).toString()
                 Toast.makeText(activity,selected,Toast.LENGTH_SHORT).show()
+
+                when(selected){
+                    "Cluster 1" -> {subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+                    }
             }
 
         }
@@ -138,9 +155,9 @@ class HomeFragment : Fragment(){
         }
         calculateC.setOnClickListener(View.OnClickListener {
 
-            when(selected){
 
-            }
+
+
 
             resultC.text = calculatePoints(70,selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
                 convertSubj(gradeSelected3),convertSubj(gradeSelected4)).toString()
