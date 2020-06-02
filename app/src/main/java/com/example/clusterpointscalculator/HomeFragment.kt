@@ -76,45 +76,54 @@ class HomeFragment : Fragment(){
                 when(selected){
                     "Cluster 1" -> {
                         subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject2.text = "MAT A/MATB/ANY GROUP II"
+                        subject3.text = "ANY GROUP III"
+                        subject4.text = "ANY GROUP II/2nd GROUP III/ANY GROUP\n" +
+                                "IV/ANY GROUP V"}
 
                     "Cluster 2" -> {
                         subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject2.text = "MAT A/MAT B"
+                        subject3.text = "any GROUP II or any GROUP III"
+                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or\n" +
+                                "any GROUP V"}
 
                     "Cluster 3" -> {
                         subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject2.text = "MAT A/MATB/ANY GROUP II"
+                        subject3.text = "ANY GROUP III"
+                        subject4.text = "ANY GROUP II/2nd GROUP III/ANY GROUP\n" +
+                                "IV/ANY GROUP V"}
 
                     "Cluster 4" -> {
-                        subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject1.text = "MAT A"
+                        subject2.text = "PHY"
+                        subject3.text = "BIO or CHE or GEO"
+                        subject4.text = "a GROUP II or any GROUP III or any\n" +
+                                "GROUP IV or any GROUP V"}
 
                     "Cluster 5" -> {
                         subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject2.text = "BIO or GSC"
+                        subject3.text = "any GROUP III"
+                        subject4.text = "MAT A / MAT B or 2nd GROUP II or\n" +
+                                "2nd GROUP III or any GROUP IV or any GROUP\n" +
+                                "V"}
 
                     "Cluster 6" -> {
-                        subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject1.text = "KIS"
+                        subject2.text = "ENG or MAT A / MAT B or any\n" +
+                                "GROUP II"
+                        subject3.text = "any GROUP III"
+                        subject4.text = "any GROUP II or 2nd GROUP III or any GROUP\n" +
+                                "IV or any GROUP V"}
 
                     "Cluster 7" -> {
-                        subject1.text = "ENG/KIS"
-                        subject2.text = "MAT A/MAT B or Any Group 2"
-                        subject3.text = "Any Group 3"
-                        subject4.text = "Any Group 4"}
+                        subject1.text = "MAT A"
+                        subject2.text = "PHY"
+                        subject3.text = "CHE"
+                        subject4.text = "BIO or any GROUP III or any GROUP\n" +
+                                "IV or any GROUP V"}
 
                     "Cluster 8" -> {
                         subject1.text = "ENG/KIS"
