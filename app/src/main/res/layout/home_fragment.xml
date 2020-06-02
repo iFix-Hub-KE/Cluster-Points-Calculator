@@ -18,33 +18,32 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/instructs"
             android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/spinner_border"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_border"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/subject1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="7dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject2"
             app:layout_constraintEnd_toEndOf="@+id/spinner"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/spinner"
@@ -54,10 +53,11 @@
             android:id="@+id/subj1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="#000"
-            app:layout_constraintHorizontal_bias="0.0"
             android:background="@drawable/spinner_border"
+            android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject2"
             app:layout_constraintEnd_toEndOf="@+id/subject1"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subject1"
             app:layout_constraintTop_toBottomOf="@+id/subject1" />
 
@@ -67,6 +67,7 @@
             android:layout_height="wrap_content"
             android:text="Math A/ Math B"
             android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject3"
             app:layout_constraintEnd_toEndOf="@+id/subj1"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj1"
@@ -76,10 +77,11 @@
             android:id="@+id/subj2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="#000"
-            app:layout_constraintHorizontal_bias="0.0"
             android:background="@drawable/spinner_border"
+            android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject3"
             app:layout_constraintEnd_toEndOf="@+id/subject2"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subject2"
             app:layout_constraintTop_toBottomOf="@+id/subject2" />
 
@@ -89,6 +91,7 @@
             android:layout_height="wrap_content"
             android:text="Math A/ Math B"
             android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject4"
             app:layout_constraintEnd_toEndOf="@+id/subj2"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj2"
@@ -98,19 +101,21 @@
             android:id="@+id/subj3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="#000"
-            app:layout_constraintHorizontal_bias="0.0"
             android:background="@drawable/spinner_border"
+            android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/subject4"
             app:layout_constraintEnd_toEndOf="@+id/subject3"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subject3"
             app:layout_constraintTop_toBottomOf="@+id/subject3" />
 
         <TextView
             android:id="@+id/subject4"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="19dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/calculate"
             app:layout_constraintEnd_toEndOf="@+id/subj3"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj3"
@@ -122,27 +127,27 @@
             android:layout_height="wrap_content"
             android:background="@drawable/spinner_border"
             android:textColor="#000"
-            app:layout_constraintHorizontal_bias="0.0"
-
+            app:layout_constraintBottom_toTopOf="@+id/calculate"
             app:layout_constraintEnd_toEndOf="@+id/subject4"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subject4"
             app:layout_constraintTop_toBottomOf="@+id/subject4" />
 
-    <Button
-        android:id="@+id/calculate"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="@string/calculate"
-        android:textColor="#fff"
-        android:background="@drawable/sign_up_box"
-        app:layout_constraintEnd_toEndOf="@+id/subj4"
-        app:layout_constraintStart_toStartOf="@+id/subj4"
-        app:layout_constraintTop_toBottomOf="@+id/subj4" />
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/sign_up_box"
+            android:text="@string/calculate"
+            android:textColor="#fff"
+            app:layout_constraintEnd_toEndOf="@+id/subj4"
+            app:layout_constraintStart_toStartOf="@+id/subj4"
+            app:layout_constraintTop_toBottomOf="@+id/subj4" />
 
     <TextView
         android:id="@+id/result"
