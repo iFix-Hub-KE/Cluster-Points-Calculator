@@ -74,11 +74,138 @@ class HomeFragment : Fragment(){
                 Toast.makeText(activity,selected,Toast.LENGTH_SHORT).show()
 
                 when(selected){
-                    "Cluster 1" -> {subject1.text = "ENG/KIS"
+                    "Cluster 1" -> {
+                        subject1.text = "ENG/KIS"
                         subject2.text = "MAT A/MAT B or Any Group 2"
                         subject3.text = "Any Group 3"
                         subject4.text = "Any Group 4"}
-                    }
+
+                    "Cluster 2" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 3" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 4" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 5" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 6" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 7" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 8" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 9" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 10" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 11" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 12" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 13" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 14" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 15" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 16" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 17" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 18" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 19" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 20" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 21" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+
+                    "Cluster 22" -> {
+                        subject1.text = "ENG/KIS"
+                        subject2.text = "MAT A/MAT B or Any Group 2"
+                        subject3.text = "Any Group 3"
+                        subject4.text = "Any Group 4"}
+                }
             }
 
         }
