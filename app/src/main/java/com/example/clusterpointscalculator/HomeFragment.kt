@@ -54,7 +54,10 @@ class HomeFragment : Fragment(){
         subject4 = view.findViewById(R.id.subject4)
 
         val spinner1 = view.findViewById<Spinner>(R.id.spinner)
-        val options = arrayOf("Cluster 2","Cluster 8","Cluster 11","Cluster 1")
+        val options = arrayOf("Cluster 1","Cluster 2","Cluster 3","Cluster 4",
+        "Cluster 5","Cluster 6","Cluster 7","Cluster 8","Cluster 9","Cluster 10","Cluster 11",
+        "Cluster 12","Cluster 13","Cluster 14","Cluster 15","Cluster 16","Cluster 17","Cluster 18",
+        "Cluster 19","Cluster 20","Cluster 21","Cluster 22")
         spinner1?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options)
         spinner1?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
