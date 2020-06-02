@@ -58,7 +58,7 @@ class HomeFragment : Fragment(){
         "Cluster 5","Cluster 6","Cluster 7","Cluster 8","Cluster 9","Cluster 10","Cluster 11",
         "Cluster 12","Cluster 13","Cluster 14","Cluster 15","Cluster 16","Cluster 17","Cluster 18",
         "Cluster 19","Cluster 20","Cluster 21","Cluster 22")
-        spinner1?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,options)
+        spinner1?.adapter = ArrayAdapter(activity?.applicationContext!!,android.R.layout.simple_spinner_dropdown_item,options)
         spinner1?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 print("Error")
@@ -221,7 +221,7 @@ class HomeFragment : Fragment(){
 
         val spinnner2 = view.findViewById<Spinner>(R.id.subj1)
         val grades = arrayOf("A","A-","B+","B","B-","C+","C","C-","D+","D","D-","E")
-        spinnner2?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinnner2?.adapter = ArrayAdapter(activity?.applicationContext!!,android.R.layout.simple_spinner_dropdown_item,grades)
         spinnner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
@@ -240,7 +240,7 @@ class HomeFragment : Fragment(){
         }
 
         val spinner3 = view.findViewById<Spinner>(R.id.subj2)
-        spinner3?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinner3?.adapter = ArrayAdapter(activity?.applicationContext!!,android.R.layout.simple_spinner_dropdown_item,grades)
         spinner3.onItemSelectedListener = object :AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
@@ -258,7 +258,7 @@ class HomeFragment : Fragment(){
         }
 
         val spinner4 = view.findViewById<Spinner>(R.id.subj3)
-        spinner4?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinner4?.adapter = ArrayAdapter(activity?.applicationContext!!,android.R.layout.simple_spinner_dropdown_item,grades)
         spinner4.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
@@ -276,7 +276,7 @@ class HomeFragment : Fragment(){
         }
 
         val spinner5 = view.findViewById<Spinner>(R.id.subj4)
-        spinner5?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.support_simple_spinner_dropdown_item,grades)
+        spinner5?.adapter = ArrayAdapter(activity?.applicationContext!!,android.R.layout.simple_spinner_dropdown_item,grades)
         spinner5.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
