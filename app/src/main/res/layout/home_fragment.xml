@@ -4,12 +4,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_width="match_parent">
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/textView"
@@ -17,33 +19,52 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="13dp"
             android:layout_marginRight="8dp"
             android:text="@string/instructs"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="7dp"
+            android:inputType="number"
+            android:background="@drawable/box"
+            android:gravity="center_horizontal"
+            android:hint="Enter total points that you scored"
+            android:textColorHint="#000"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
 
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="12dp"
             android:background="@drawable/spinner_border"
-            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="@+id/editText5"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toStartOf="@+id/editText5"
+            app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
         <TextView
             android:id="@+id/subject1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="12dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject2"
             app:layout_constraintEnd_toEndOf="@+id/spinner"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/spinner"
@@ -53,11 +74,11 @@
             android:id="@+id/subj1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/spinner_border"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject2"
-            app:layout_constraintEnd_toEndOf="@+id/subject1"
+            android:textSize="12dp"
             app:layout_constraintHorizontal_bias="0.0"
+            android:background="@drawable/spinner_border"
+            app:layout_constraintEnd_toEndOf="@+id/subject1"
             app:layout_constraintStart_toStartOf="@+id/subject1"
             app:layout_constraintTop_toBottomOf="@+id/subject1" />
 
@@ -66,8 +87,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Math A/ Math B"
+            android:textSize="12dp"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject3"
             app:layout_constraintEnd_toEndOf="@+id/subj1"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj1"
@@ -77,11 +98,11 @@
             android:id="@+id/subj2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/spinner_border"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject3"
-            app:layout_constraintEnd_toEndOf="@+id/subject2"
+            android:textSize="12dp"
             app:layout_constraintHorizontal_bias="0.0"
+            android:background="@drawable/spinner_border"
+            app:layout_constraintEnd_toEndOf="@+id/subject2"
             app:layout_constraintStart_toStartOf="@+id/subject2"
             app:layout_constraintTop_toBottomOf="@+id/subject2" />
 
@@ -91,7 +112,7 @@
             android:layout_height="wrap_content"
             android:text="Math A/ Math B"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject4"
+            android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="@+id/subj2"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj2"
@@ -101,21 +122,21 @@
             android:id="@+id/subj3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/spinner_border"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject4"
-            app:layout_constraintEnd_toEndOf="@+id/subject3"
+            android:textSize="12dp"
             app:layout_constraintHorizontal_bias="0.0"
+            android:background="@drawable/spinner_border"
+            app:layout_constraintEnd_toEndOf="@+id/subject3"
             app:layout_constraintStart_toStartOf="@+id/subject3"
             app:layout_constraintTop_toBottomOf="@+id/subject3" />
 
         <TextView
             android:id="@+id/subject4"
             android:layout_width="0dp"
-            android:layout_height="19dp"
+            android:layout_height="wrap_content"
             android:text="Math A/ Math B"
+            android:textSize="12dp"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/calculate"
             app:layout_constraintEnd_toEndOf="@+id/subj3"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj3"
@@ -125,43 +146,50 @@
             android:id="@+id/subj4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/spinner_border"
             android:textColor="#000"
-            app:layout_constraintBottom_toTopOf="@+id/calculate"
+            android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="@+id/subject4"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subject4"
             app:layout_constraintTop_toBottomOf="@+id/subject4" />
 
+
+
         <Button
             android:id="@+id/calculate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
             android:background="@drawable/sign_up_box"
             android:text="@string/calculate"
             android:textColor="#fff"
+            android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="@+id/subj4"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subj4"
             app:layout_constraintTop_toBottomOf="@+id/subj4" />
 
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Your Points are : 34.789"
-        android:textStyle="bold"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="@+id/calculate"
-        app:layout_constraintStart_toStartOf="@+id/calculate"
-        app:layout_constraintTop_toBottomOf="@+id/calculate" />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="0.000"
+            android:textColor="#7f00ff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/calculate"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/calculate"
+            app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </ScrollView>
+
 
 
