@@ -319,9 +319,13 @@ class HomeFragment : Fragment(){
         }
         calculateC.setOnClickListener(View.OnClickListener {
 
-            var points:Int = totalPoint.text.toString().toInt()
+            var points = totalPoint.text.toString()
 
-            resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points,selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
+            if(points == ""){
+                totalPoint.setError("Please enter your total points")
+            }
+            else
+            resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points.toString().toInt(),selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
                 convertSubj(gradeSelected3),convertSubj(gradeSelected4)))}")
         })
 
