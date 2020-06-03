@@ -325,7 +325,7 @@ class HomeFragment : Fragment(){
                 totalPoint.setError("Please enter your total points")
             }
             else
-            resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points.toString().toInt(),selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
+            resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points.toInt(),selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
                 convertSubj(gradeSelected3),convertSubj(gradeSelected4)))}")
         })
 
@@ -393,15 +393,5 @@ class HomeFragment : Fragment(){
     override fun onDestroyView() {
         Log.d(TAG,"onDestroyView")
         super.onDestroyView()
-    }
-
-    override fun onDestroy() {
-        Log.d(TAG,"onDestroy")
-        super.onDestroy()
-    }
-
-    override fun onDetach() {
-        Log.d(TAG,"onDetach")
-        super.onDetach()
     }
 }
