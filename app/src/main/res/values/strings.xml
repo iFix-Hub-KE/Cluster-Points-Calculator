@@ -16,12 +16,33 @@
         \n <li>English</li>
         \n <li>Kiswahili</li>
         \n <li>Mathematics</li>
+
+
+
+    English – 101
+
+    Kiswahili – 102
+
+    Mathematics – 121 or Mathematics Alternative “B” – 122
+
     </string>
 
     <string name="group2"><b><big>Group two Subjects</big></b>
         \n <li>Biology</li>
         \n <li>Physics</li>
         \n <li>Chemistry and Biological Science (taken by blind candidates)</li>
+
+
+
+    Biology – 231
+
+    Physics – 232 Option “A”
+
+    Chemistry – 233
+
+    General Science – 237 for Option “B”
+
+
     </string>
 
     <string name="group3"><b><big>Group three Subjects</big></b>
@@ -30,6 +51,20 @@
         \n <li>Christian Religious Education</li>
         \n <li>Islamic Religious Education</li>
         \n <li>Hindu Religious Education</li>
+
+
+
+
+    History & Government – 311
+
+    Geography – 312
+
+    Christian Rel. Education – 313
+
+    Islamic Religious Education – 314 only one to be taken
+
+    Hindu Rel. Education – 315
+
     </string>
 
     <string name="group4"><b><big>Group four Subjects</big></b>
@@ -38,6 +73,31 @@
         \n <li>Agriculture</li>
         \n <li>Computer Studies</li>
         \n <li>Aviation</li>
+
+
+
+    Home Science – 441
+
+    Art and Design – 442
+
+    Agriculture – 443
+
+    Woodwork – 444
+
+    Metalwork – 445
+
+    Building Construction – 446
+
+    Power Mechanics – 447
+
+    Electricity – 448
+
+    Drawing and Design
+
+    Aviation Technology – 450
+
+    Computer Studies – 451
+
     </string>
 
     <string name="group5"><b><big>Group five Subjects</big></b>
@@ -46,6 +106,21 @@
         \n <li>Arabic</li>
         \n <li>music</li>
         \n <li>Business Studies</li>
+
+
+
+    French – 501
+
+    German – 502
+
+    Arabic – 503
+
+    Kenya Sign Language – 504
+
+    Music – 511
+
+    Business Studies – 565
+
     </string>
 
     <string name="grading_system">KCSE Grading System</string>
@@ -54,4 +129,42 @@
     <string name="str_details"><![CDATA[<p>A long string of text that do not want to show all the time.A long string of text that do notA long string of text that do not want to show all the time.A long string of text that do not want to show al string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of text that do notA long string of text that do not want to show all the time.A long string of </p>]]></string>
     <string name="grade"><b>Grade</b></string>
     <string name="percentage_mark"><b>Percentage mark</b></string>
+    <string name="gradingd">Each KCSE subject is graded on the basis of a twelve-point scale, with 12 points being the highest score and 1 the lowest these grades are accompanied by an expanded grading system from A, A-, B+ to E. Grade boundaries are determined by an Awards committee composed of experts selected from the various levels within the education sector.
+
+The mean grade (which ranges from A to E and 7 to 84) is an average grade based on performance in the 7 subjects as stated in the KCSE certificate award Regulations while aggregate points (AGPT) indicate the total number of grade points based on the 7 subjects.
+
+NO MEAN GRADE appears if the candidate sits for less than 7 subjects or where one or more subjects are cancelled due to an examinationirregularity or where the entry requirements have not been met. The letter Z indicates that entry requirements have not been met.</string>
+
+
+    <string name="awarding">NUMERIC AGGREGATE KCSE SUBJECT GRADE
+
+POINTS LETTER STANDARD
+
+GRADE LETTER NUMERIC
+
+81 – 84 A Very Good A 12
+
+74 – 80 A- A- 11
+
+67 – 73 B+ B+ 10
+
+60 – 66 B Good B 9
+
+53 – 59 B- B- 8
+
+46 – 52 C+ C+ 7
+
+39 – 45 C Average C 6
+
+32 – 38 C- C- 5
+
+25 – 31 D+ D+ 4
+
+18 – 24 D Weak D 3
+
+11 – 17 D- D- 2
+
+07 – 10 E Poor E 1</string>
+
+
 </resources>
