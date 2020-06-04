@@ -40,7 +40,13 @@
         \n <li>Aviation</li>
     </string>
 
-
+    <string name="group5"><b><big>Group five Subjects</big></b>
+        \n <li>French</li>
+        \n <li>German</li>
+        \n <li>Arabic</li>
+        \n <li>music</li>
+        \n <li>Business Studies</li>
+    </string>
 
 
     <string name="grading">For grading, candidates must take all the three compulsory subjects, at least two sciences, one humanities and at least one practical or technical subject </string>
