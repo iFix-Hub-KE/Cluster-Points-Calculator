@@ -92,7 +92,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="A-" />
 
             <TextView
                 android:layout_width="0dp"
@@ -100,7 +100,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="75-79" />
         </TableRow>
 
         <TableRow
@@ -113,7 +113,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="B+" />
 
             <TextView
                 android:layout_width="0dp"
@@ -121,7 +121,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="70-74" />
         </TableRow>
 
         <TableRow
@@ -134,7 +134,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="B" />
 
             <TextView
                 android:layout_width="0dp"
@@ -142,7 +142,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="65-69" />
         </TableRow>
 
         <TableRow
@@ -155,7 +155,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="B-" />
 
             <TextView
                 android:layout_width="0dp"
@@ -163,7 +163,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="60-64" />
         </TableRow>
 
         <TableRow
@@ -176,7 +176,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="C+" />
 
             <TextView
                 android:layout_width="0dp"
@@ -184,7 +184,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="55-59" />
         </TableRow>
 
         <TableRow
@@ -197,7 +197,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="C" />
 
             <TextView
                 android:layout_width="0dp"
@@ -205,7 +205,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="50-54" />
         </TableRow>
 
         <TableRow
@@ -218,7 +218,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="C-" />
 
             <TextView
                 android:layout_width="0dp"
@@ -226,7 +226,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="45-49" />
         </TableRow>
 
         <TableRow
@@ -239,7 +239,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="D+" />
 
             <TextView
                 android:layout_width="0dp"
@@ -247,7 +247,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="40-44" />
         </TableRow>
 
         <TableRow
@@ -260,7 +260,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="D" />
 
             <TextView
                 android:layout_width="0dp"
@@ -268,7 +268,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="35-39" />
         </TableRow>
 
         <TableRow
@@ -281,7 +281,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="D-" />
 
             <TextView
                 android:layout_width="0dp"
@@ -289,7 +289,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="30-34" />
         </TableRow>
 
         <TableRow
@@ -302,7 +302,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="A" />
+                android:text="E" />
 
             <TextView
                 android:layout_width="0dp"
@@ -310,7 +310,7 @@
                 android:background="@drawable/table_boader"
                 android:gravity="center"
                 android:padding="15dip"
-                android:text="80-100" />
+                android:text="0-29" />
         </TableRow>
 
     </TableLayout>
