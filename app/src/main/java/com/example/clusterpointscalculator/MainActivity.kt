@@ -2,6 +2,7 @@ package com.example.clusterpointscalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -10,6 +11,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(){
+
+    val TAG = "MainActivity"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,8 +26,8 @@ class MainActivity : AppCompatActivity(){
     fun addFragment(fragment: Fragment){
         supportFragmentManager
             .beginTransaction()
+            .addToBackStack("Hi there")
             .replace(R.id.fragment_container,fragment)
-            .addToBackStack(null)
             .commit()
     }
 

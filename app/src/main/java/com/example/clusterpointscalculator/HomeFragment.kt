@@ -394,4 +394,16 @@ class HomeFragment : Fragment(){
         Log.d(TAG,"onDestroyView")
         super.onDestroyView()
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG,"onDestroy")
+
+    }
+
+    override fun onDetach() {
+        super.onDetach()
+        Log.d(TAG,"onDetach")
+
+    }
 }
