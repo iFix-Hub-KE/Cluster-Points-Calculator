@@ -28,5 +28,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Showmore..."
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_light"
+            app:layout_constraintEnd_toEndOf="@+id/tvSongDes"
+            app:layout_constraintStart_toStartOf="@+id/tvSongDes"
+            app:layout_constraintTop_toBottomOf="@+id/tvSongDes"
+            android:layout_gravity="start" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
