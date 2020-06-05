@@ -56,36 +56,4 @@
     <string name="percentage_mark"><b>Percentage mark</b></string>
     <string name="gradingd">Each KCSE subject is graded on the basis of a twelve-point scale, with 12 points being the highest score and 1 the lowest these grades are accompanied by an expanded grading system from A, A-, B+ to E. Grade boundaries are determined by an Awards committee composed of experts selected from the various levels within the education sector. The mean grade (which ranges from A to E and 7 to 84) is an average grade based on performance in the 7 subjects as stated in the KCSE certificate award Regulations while aggregate points (AGPT) indicate the total number of grade points based on the 7 subjects. NO MEAN GRADE appears if the candidate sits for less than 7 subjects or where one or more subjects are cancelled due to an examinationirregularity or where the entry requirements have not been met. The letter Z indicates that entry requirements have not been met.</string>
 
-
-    <string name="awarding">NUMERIC AGGREGATE KCSE SUBJECT GRADE
-
-POINTS LETTER STANDARD
-
-GRADE LETTER NUMERIC
-
-81 – 84 A Very Good A 12
-
-74 – 80 A- A- 11
-
-67 – 73 B+ B+ 10
-
-60 – 66 B Good B 9
-
-53 – 59 B- B- 8
-
-46 – 52 C+ C+ 7
-
-39 – 45 C Average C 6
-
-32 – 38 C- C- 5
-
-25 – 31 D+ D+ 4
-
-18 – 24 D Weak D 3
-
-11 – 17 D- D- 2
-
-07 – 10 E Poor E 1</string>
-
-
 </resources>
