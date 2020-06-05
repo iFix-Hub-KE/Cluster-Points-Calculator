@@ -148,7 +148,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Months" />
+                    android:text="@string/grade" />
 
                 <TextView
                     android:id="@+id/status"
@@ -157,7 +157,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Number of Visits" />
+                    android:text="@string/percentage_mark" />
             </TableRow>
 
             <TableRow
@@ -170,7 +170,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="January" />
+                    android:text="A" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -178,9 +178,209 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="1" />
+                    android:text="80-90" />
             </TableRow>
 
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="A-" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="75-79" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="B+" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="70-74" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="B" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="65-69" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="B-" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="60-64" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="Februrary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="Februrary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="Februrary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="Februrary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="Februrary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="Februrary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/table_boader"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="" />
+            </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" >
