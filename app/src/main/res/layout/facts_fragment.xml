@@ -271,7 +271,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="C+" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -279,7 +279,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="55-59" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -291,7 +291,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="C" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -299,7 +299,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="50-54" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -311,7 +311,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="C-" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -319,7 +319,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="45-49" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -331,7 +331,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="D+" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -339,7 +339,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="40-44" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -351,7 +351,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="D" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -359,7 +359,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="35-39" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -371,7 +371,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="D-" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -379,7 +379,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="30-34" />
             </TableRow>
             <TableRow
                 android:layout_width="wrap_content"
@@ -391,7 +391,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="Februrary" />
+                    android:text="E" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -399,7 +399,7 @@
                     android:background="@drawable/table_boader"
                     android:gravity="center"
                     android:padding="15dip"
-                    android:text="" />
+                    android:text="0-29" />
             </TableRow>
         </TableLayout>
     </LinearLayout>
