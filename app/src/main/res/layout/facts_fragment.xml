@@ -26,7 +26,7 @@
             android:layout_marginRight="16dp"
             android:id="@+id/tvSongDes"
             android:maxLines="5"
-            android:text="@string/str_details"
+            android:text="@string/grading"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -119,6 +119,8 @@
             app:layout_constraintEnd_toEndOf="@+id/textView13"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
 
     </LinearLayout>
 </ScrollView>
