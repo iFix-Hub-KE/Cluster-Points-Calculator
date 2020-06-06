@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:layout_width="match_parent">
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,16 +18,15 @@
             android:id="@+id/textView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:text="@string/instructs"
             android:textColor="#000"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toTopOf="@+id/editText5"
+            android:textSize="13dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,21 +34,24 @@
             android:id="@+id/editText5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:background="@drawable/box"
+            android:gravity="center_horizontal"
             android:hint="Enter total points that you scored"
             android:inputType="number"
             android:padding="7dp"
             android:textColorHint="#000"
-            app:layout_constraintBottom_toTopOf="@+id/subject1"
             app:layout_constraintEnd_toEndOf="@+id/textView"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="7dp"
             android:background="@drawable/spinner_border"
             android:textSize="12dp"
             app:layout_constraintBottom_toTopOf="@+id/subject1"
@@ -60,12 +64,10 @@
             android:id="@+id/subject1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="7dp"
+            android:textSize="12dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
-            android:textSize="12dp"
-            app:layout_constraintBottom_toTopOf="@+id/subject2"
             app:layout_constraintEnd_toEndOf="@+id/spinner"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/spinner"
@@ -87,11 +89,10 @@
             android:id="@+id/subject2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
             android:textSize="12dp"
-            android:layout_marginBottom="5dp"
             app:layout_constraintEnd_toEndOf="@+id/subj1"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj1"
@@ -113,11 +114,10 @@
             android:id="@+id/subject3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
             android:textSize="12dp"
-            android:layout_marginBottom="5dp"
             app:layout_constraintEnd_toEndOf="@+id/subj2"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj2"
@@ -139,11 +139,10 @@
             android:id="@+id/subject4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:text="Math A/ Math B"
             android:textColor="#000"
             android:textSize="12dp"
-            android:layout_marginBottom="5dp"
             app:layout_constraintEnd_toEndOf="@+id/subj3"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/subj3"
@@ -161,6 +160,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/subject4"
             app:layout_constraintTop_toBottomOf="@+id/subject4" />
+
+
 
         <Button
             android:id="@+id/calculate"
@@ -192,6 +193,8 @@
             app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </ScrollView>
 
 
