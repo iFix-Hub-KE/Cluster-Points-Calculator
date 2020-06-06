@@ -7,8 +7,6 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:layout_width="match_parent">
-
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,8 +41,6 @@
             app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-
 
         <Spinner
             android:id="@+id/spinner"
@@ -156,8 +152,6 @@
             app:layout_constraintStart_toStartOf="@+id/subject4"
             app:layout_constraintTop_toBottomOf="@+id/subject4" />
 
-
-
         <Button
             android:id="@+id/calculate"
             android:layout_width="0dp"
@@ -188,8 +182,6 @@
             app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </ScrollView>
 
 
