@@ -67,160 +67,133 @@ class HomeFragment : Fragment(){
                         subject1.text = "ENG/KIS"
                         subject2.text = "MAT A/MATB/ANY GROUP II"
                         subject3.text = "ANY GROUP III"
-                        subject4.text = "ANY GROUP II/2nd GROUP III/ANY GROUP\n" +
-                                "IV/ANY GROUP V"}
+                        subject4.text = "ANY GROUP II/2nd GROUP III/ANY GROUP IV/ANY GROUP V"}
 
                     "Cluster 2" -> {
                         subject1.text = "ENG/KIS"
                         subject2.text = "MAT A/MAT B"
                         subject3.text = "any GROUP II or any GROUP III"
-                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or\n" +
-                                "any GROUP V"}
+                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 3" -> {
                         subject1.text = "ENG/KIS"
                         subject2.text = "MAT A/MATB/ANY GROUP II"
                         subject3.text = "ANY GROUP III"
-                        subject4.text = "ANY GROUP II/2nd GROUP III/ANY GROUP\n" +
-                                "IV/ANY GROUP V"}
+                        subject4.text = "ANY GROUP II/2nd GROUP III/ANY GROUP IV/ANY GROUP V"}
 
                     "Cluster 4" -> {
                         subject1.text = "MAT A"
                         subject2.text = "PHY"
                         subject3.text = "BIO or CHE or GEO"
-                        subject4.text = "a GROUP II or any GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "a GROUP II or any GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 5" -> {
                         subject1.text = "ENG/KIS"
                         subject2.text = "BIO or GSC"
                         subject3.text = "any GROUP III"
-                        subject4.text = "MAT A / MAT B or 2nd GROUP II or\n" +
-                                "2nd GROUP III or any GROUP IV or any GROUP\n" +
-                                "V"}
+                        subject4.text = "MAT A / MAT B or 2nd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 6" -> {
                         subject1.text = "KIS"
-                        subject2.text = "ENG or MAT A / MAT B or any\n" +
-                                "GROUP II"
+                        subject2.text = "ENG or MAT A / MAT B or any GROUP II"
                         subject3.text = "any GROUP III"
-                        subject4.text = "any GROUP II or 2nd GROUP III or any GROUP\n" +
-                                "IV or any GROUP V"}
+                        subject4.text = "any GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 7" -> {
                         subject1.text = "MAT A"
                         subject2.text = "PHY"
                         subject3.text = "CHE"
-                        subject4.text = "BIO or any GROUP III or any GROUP\n" +
-                                "IV or any GROUP V"}
+                        subject4.text = "BIO or any GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 8" -> {
                         subject1.text = "MAT A"
                         subject2.text = "PHY"
                         subject3.text = "any GROUP III"
-                        subject4.text = "2nd GROUP II or 2nd GROUP III or any GROUP\n"+
-                                "IV or any GROUP V"}
+                        subject4.text = "2nd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 9" -> {
                         subject1.text = "mat a"
                         subject2.text = "PHY"
                         subject3.text = "2nd GROUP II or any GROUP III"
-                        subject4.text = "a GROUP II or a GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 10" -> {
                         subject1.text = "MAT A"
                         subject2.text = "BIO"
                         subject3.text = "PHY or CHEM"
-                        subject4.text = "3rd GROUP II or any GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "3rd GROUP II or any GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 11" -> {
                         subject1.text = "MAT A"
                         subject2.text = "any GROUP II"
                         subject3.text = "2nd GROUP II"
-                        subject4.text = "3rd GROUP II or any GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "3rd GROUP II or any GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 12" -> {
                         subject1.text = "MAT A"
                         subject2.text = "any GROUP II"
                         subject3.text = "any GROUP III"
-                        subject4.text = "2nd GROUP II or 2nd GROUP III or a\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "2nd GROUP II or 2nd GROUP III or a GROUP IV or any GROUP V"}
 
                     "Cluster 13" -> {
                         subject1.text = "CHEM"
                         subject2.text = "MAT A/MAT B or PHY"
                         subject3.text = "BIO or HSC"
-                        subject4.text = "ENG/KIS or any GROUP III or a\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "ENG/KIS or any GROUP III or a GROUP IV or any GROUP V"}
 
                     "Cluster 14" -> {
                         subject1.text = "BIO or GSC"
                         subject2.text = "MAT A / MAT B"
                         subject3.text = "any GROUP II or any GROUP III"
-                        subject4.text = "ENG/KIS or a GROUP II or a GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "ENG/KIS or a GROUP II or a GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 15" -> {
                         subject1.text = "BIO"
                         subject2.text = "CHEM"
                         subject3.text = "MAT A or PHY"
-                        subject4.text = "ENG/KIS or 3rd GROUP II or any GROUP III or\n" +
-                                "any GROUP IV or any GROUP V"}
+                        subject4.text = "ENG/KIS or 3rd GROUP II or any GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 16" -> {
                         subject1.text = "HAG"
                         subject2.text = "ENG/KIS"
                         subject3.text = "MAT A / MAT B or any GROUP II"
-                        subject4.text = "a GROUP II or 2nd GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "a GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 17" -> {
                         subject1.text = "BIO"
                         subject2.text = "CHEM"
                         subject3.text = "MAT A or PHY or GEO"
-                        subject4.text = "ENG/KIS or 3rd GROUP II or a GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "ENG/KIS or 3rd GROUP II or a GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 18" -> {
                         subject1.text = "GEO"
                         subject2.text = "MAT A / MAT B"
                         subject3.text = "any GROUP II"
-                        subject4.text = "2nd GROUP II or 2nd GROUP III or any\n" +
-                                "GROUP IV or any GROUP V"}
+                        subject4.text = "2nd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V"}
 
                     "Cluster 19" -> {
                         subject1.text = "FRE"
                         subject2.text = "ENG/KIS"
-                        subject3.text = "MAT A / MAT B or any GROUP II or any\n" +
-                                "GROUP III"
-                        subject4.text = "a GROUP II or a GROUP III or any\n" +
-                                "GROUP IV or 2nd GROUP V"}
+                        subject3.text = "MAT A / MAT B or any GROUP II or any GROUP III"
+                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V"}
 
                     "Cluster 20" -> {
                         subject1.text = "GER"
                         subject2.text = "ENG/KIS"
-                        subject3.text = "MAT A / MAT B or any GROUP II or any\n" +
-                                "GROUP III"
-                        subject4.text = "a GROUP II or a GROUP III or any\n" +
-                                "GROUP IV or 2nd GROUP V"}
+                        subject3.text = "MAT A / MAT B or any GROUP II or any GROUP III"
+                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V"}
 
                     "Cluster 21" -> {
                         subject1.text = "MUS"
                         subject2.text = "ENG/KIS"
-                        subject3.text = "MAT A / MAT B or any GROUP II or any\n" +
-                                "GROUP III"
-                        subject4.text = "a GROUP II or a GROUP III or any\n" +
-                                "GROUP IV or 2nd GROUP V"}
+                        subject3.text = "MAT A / MAT B or any GROUP II or any GROUP III"
+                        subject4.text = "a GROUP II or a GROUP III or any GROUP IV or 2nd GROUP V"}
 
                     "Cluster 22" -> {
                         subject1.text = "ENG"
                         subject2.text = "MAT A/MAT B or any GROUP II"
                         subject3.text = "2nd GROUP II or any GROUP III"
-                        subject4.text = "KIS or 3rd GROUP II or 2nd GROUP III\n" +
-                                "or any GROUP IV or any GROUP V"}
+                        subject4.text = "KIS or 3rd GROUP II or 2nd GROUP III or any GROUP IV or any GROUP V"}
                 }
             }
 
