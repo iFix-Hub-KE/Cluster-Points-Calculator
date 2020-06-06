@@ -1,7 +1,6 @@
 package com.example.clusterpointscalculator
 
 import android.content.Context
-import android.nfc.Tag
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -9,14 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
-import kotlinx.android.synthetic.main.home_fragment.*
-import kotlinx.android.synthetic.main.janes_ui.*
 import kotlin.math.sqrt
 
 class HomeFragment : Fragment(){
 
     val TAG = "HomeFragment"
-
     private lateinit var selected:String
     private lateinit var gradeSelected1:String
     private lateinit var gradeSelected2:String
@@ -30,22 +26,6 @@ class HomeFragment : Fragment(){
     private lateinit var subject4:TextView
     private lateinit var totalPoint: EditText
 
-
-
-
-
-    override fun onAttach(context: Context) {
-        Log.d(TAG,"onAttach")
-        super.onAttach(context)
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        Log.d(TAG,"onCreate")
-        super.onCreate(savedInstanceState)
-
-
-    }
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         Log.d(TAG,"onCreateView")
         //!! means the inflater should not be null
@@ -57,18 +37,21 @@ class HomeFragment : Fragment(){
         subject2 = view.findViewById(R.id.subject2)
         subject3 = view.findViewById(R.id.subject3)
         subject4 = view.findViewById(R.id.subject4)
-
         totalPoint = view.findViewById(R.id.editText5)
-
         val spinner1 = view.findViewById<Spinner>(R.id.spinner)
+
         val options = arrayOf("Cluster 1","Cluster 2","Cluster 3","Cluster 4",
             "Cluster 5","Cluster 6","Cluster 7","Cluster 8","Cluster 9","Cluster 10","Cluster 11",
             "Cluster 12","Cluster 13","Cluster 14","Cluster 15","Cluster 16","Cluster 17","Cluster 18",
             "Cluster 19","Cluster 20","Cluster 21","Cluster 22")
+
+        val grades = arrayOf("A","A-","B+","B","B-","C+","C","C-","D+","D","D-","E")
+
+
+        //parameters for the adapter - the context,my custom layout and the array of options
         spinner1?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.spinner_row,options)
         spinner1?.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                print("Error")
             }
 
             override fun onItemSelected(
@@ -78,7 +61,6 @@ class HomeFragment : Fragment(){
                 id: Long
             ) {
                 selected = parent?.getItemAtPosition(position).toString()
-                Toast.makeText(activity,selected,Toast.LENGTH_SHORT).show()
 
                 when(selected){
                     "Cluster 1" -> {
@@ -245,11 +227,9 @@ class HomeFragment : Fragment(){
         }
 
         val spinnner2 = view.findViewById<Spinner>(R.id.subj1)
-        val grades = arrayOf("A","A-","B+","B","B-","C+","C","C-","D+","D","D-","E")
         spinnner2?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.spinner_row,grades)
         spinnner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
             }
 
             override fun onItemSelected(
@@ -259,7 +239,6 @@ class HomeFragment : Fragment(){
                 id: Long
             ) {
                 gradeSelected1 = parent?.getItemAtPosition(position).toString()
-                //Toast.makeText(activity,gradeSelected.toString(),Toast.LENGTH_SHORT).show()
             }
 
         }
@@ -268,7 +247,6 @@ class HomeFragment : Fragment(){
         spinner3?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.spinner_row,grades)
         spinner3.onItemSelectedListener = object :AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
             }
 
             override fun onItemSelected(
@@ -286,7 +264,6 @@ class HomeFragment : Fragment(){
         spinner4?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.spinner_row,grades)
         spinner4.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
             }
 
             override fun onItemSelected(
@@ -304,7 +281,6 @@ class HomeFragment : Fragment(){
         spinner5?.adapter = ArrayAdapter(activity?.applicationContext!!,R.layout.spinner_row,grades)
         spinner5.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                Toast.makeText(activity,"Error",Toast.LENGTH_SHORT).show()
             }
 
             override fun onItemSelected(
@@ -322,7 +298,7 @@ class HomeFragment : Fragment(){
             var points = totalPoint.text.toString()
 
             if(points == ""){
-                totalPoint.setError("Please enter your total points")
+                totalPoint.error = "Please enter your total points"
             }
             else
             resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points.toInt(),selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
@@ -362,48 +338,5 @@ class HomeFragment : Fragment(){
             "E" -> points =  1
         }
         return points
-    }
-
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        Log.d(TAG,"onActivityCreated")
-        super.onActivityCreated(savedInstanceState)
-    }
-
-    override fun onStart() {
-        Log.d(TAG,"onStart")
-        super.onStart()
-    }
-
-    override fun onResume() {
-        Log.d(TAG,"onResume")
-        super.onResume()
-    }
-
-    override fun onPause() {
-        Log.d(TAG,"onPause")
-        super.onPause()
-    }
-
-    override fun onStop() {
-        Log.d(TAG,"onStop")
-        super.onStop()
-    }
-
-    override fun onDestroyView() {
-        Log.d(TAG,"onDestroyView")
-        super.onDestroyView()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d(TAG,"onDestroy")
-
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        Log.d(TAG,"onDetach")
-
     }
 }
