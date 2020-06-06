@@ -2,13 +2,6 @@
     <string name="app_name">Cluster Points Calculator</string>
     <string name="instructs">To calculate your cluster points, you first have to enter the total points that you scored then select the cluster group that you want i.e. Cluster 1, Cluster 11 e.t.c, then you can then fill in the grade you score corresponding to each cluster subject.</string>
     <string name="calculate">Calculate</string>
-
-
-    <string name="consent">By creating an account you agree to the <u>Terms of Use</u> and <u>Privacy Policy</u></string>
-
-
-    <string name="i_am_already_a_member"><u>I am already a Member</u></string>
-
     <string name="str_more"><![CDATA[<p><b>This is the header</b><u>( see more ..)</u>]]></string>
     <string name="str_less"><![CDATA[<p><b>This is the header</b><u>(less ..)</u>]]></string>
     <string name="groups">KCSE Subject Groups</string>
@@ -17,13 +10,11 @@
         \n <li>Kiswahili</li>
         \n <li>Mathematics</li>
     </string>
-
     <string name="group2"><b><big>Group two Subjects</big></b>
         \n <li>Biology</li>
         \n <li>Physics</li>
         \n <li>Chemistry and Biological Science (taken by blind candidates)</li>
     </string>
-
     <string name="group3"><b><big>Group three Subjects</big></b>
         \n <li>History and Government</li>
         \n <li>Geography</li>
@@ -31,7 +22,6 @@
         \n <li>Islamic Religious Education</li>
         \n <li>Hindu Religious Education</li>
     </string>
-
     <string name="group4"><b><big>Group four Subjects</big></b>
         \n <li>Home Science</li>
         \n <li>Arts and Design</li>
@@ -39,7 +29,6 @@
         \n <li>Computer Studies</li>
         \n <li>Aviation</li>
     </string>
-
     <string name="group5"><b><big>Group five Subjects</big></b>
         \n <li>French</li>
         \n <li>German</li>
@@ -47,13 +36,9 @@
         \n <li>music</li>
         \n <li>Business Studies</li>
     </string>
-
     <string name="grading_system">KCSE Grading System</string>
-
     <string name="grading">For grading, candidates must take all the three compulsory subjects, at least two sciences, one humanities and at least one practical or technical subject </string>
-    <string name="str_details"><![CDATA[<p>A long string of text that do not want to show all the time.A long string of text that do notA long string of text that do not want to show all the time.A long string of text that do not want to show al string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of  the time.A long string of  string of text that do notA long string of text that do not want to show all the time.A long string of text that do notA long string of text that do not want to show all the time.A long string of </p>]]></string>
     <string name="grade"><b>Grade</b></string>
     <string name="percentage_mark"><b>Percentage mark</b></string>
     <string name="gradingd">Each KCSE subject is graded on the basis of a twelve-point scale, with 12 points being the highest score and 1 the lowest these grades are accompanied by an expanded grading system from A, A-, B+ to E. Grade boundaries are determined by an Awards committee composed of experts selected from the various levels within the education sector. The mean grade (which ranges from A to E and 7 to 84) is an average grade based on performance in the 7 subjects as stated in the KCSE certificate award Regulations while aggregate points (AGPT) indicate the total number of grade points based on the 7 subjects. NO MEAN GRADE appears if the candidate sits for less than 7 subjects or where one or more subjects are cancelled due to an examinationirregularity or where the entry requirements have not been met. The letter Z indicates that entry requirements have not been met.</string>
-
 </resources>
