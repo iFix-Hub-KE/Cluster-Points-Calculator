@@ -301,14 +301,14 @@ class HomeFragment : Fragment(){
                 totalPoint.error = "Please enter your total points"
             }
             else
-            resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points.toInt(),selected,convertSubj(gradeSelected1),convertSubj(gradeSelected2),
+            resultC.text = ("Your Points are : ${"%.3f".format(calculatePoints(points.toInt(),convertSubj(gradeSelected1),convertSubj(gradeSelected2),
                 convertSubj(gradeSelected3),convertSubj(gradeSelected4)))}")
         })
 
         return view
     }
 
-    fun calculatePoints(totalPoints:Int,cluster:String,subj1:Int,subj2:Int,subj3:Int,subj4:Int) : Double {
+    fun calculatePoints(totalPoints:Int,subj1:Int,subj2:Int,subj3:Int,subj4:Int) : Double {
 
         var x:Double = (subj1+subj2+subj3+subj4).toDouble()
 
