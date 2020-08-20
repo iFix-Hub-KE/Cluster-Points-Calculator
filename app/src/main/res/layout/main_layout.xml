@@ -1,57 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="English"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kiswahili"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox11"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="275dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mathematics"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox4"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox2"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox2" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox12"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Biology"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox5"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox3"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox3" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox7"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox11"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox11" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Studies"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox6"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox4"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox4" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Studies"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox9"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox5"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox5" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agriculture"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox8"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox12"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox12" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geography"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCheckBox10"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox7"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox7" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History & Government"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox6"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox6" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/materialCheckBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C.R.E"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/materialCheckBox8"
+        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox8" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Total Points:"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Select all subjects that you did in high school"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="16dp" />
 
-    <SeekBar
-        android:id="@+id/seekBar"
-        style="@android:style/Widget.Material.Light.SeekBar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView3"
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Grades Per Subject"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        android:text="57"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="Next"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="281dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
