@@ -12,14 +12,14 @@ class MainActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main_layout)
 
         //setting listener to the bottom nav items
-        bottom_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        //bottom_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
 
         //setting the fragment that will be loaded when the app starts
-        var fragment = HomeFragment()
-        addFragment(fragment)
+        //var fragment = HomeFragment()
+        //addFragment(fragment)
     }
 
     fun addFragment(fragment: Fragment){
