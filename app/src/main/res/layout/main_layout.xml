@@ -7,68 +7,68 @@
 
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox"
+        android:id="@+id/pref_Kisw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kiswahili"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox2"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox2"
+        app:layout_constraintStart_toStartOf="@+id/pref_Eng"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Eng"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox11"
+        android:id="@+id/pref_Phyc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Physics"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox3"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox3" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Maths"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Maths" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox12"
+        android:id="@+id/pref_Chem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:buttonTint="#000"
         android:text="Chemistry"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox4"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox4" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Bio"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Bio" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox7"
+        android:id="@+id/pref_Agri"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Agriculture"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox12"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox12" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Chem"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Chem" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox8"
+        android:id="@+id/pref_Geo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Geography"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox6"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox6" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Comp"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Comp" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox10"
+        android:id="@+id/pref_CRE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="C.R.E"
         android:textSize="18sp"
         android:buttonTint="#000"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox9"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox9" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Hist"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Hist" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox2"
+        android:id="@+id/pref_Eng"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
@@ -81,54 +81,54 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox3"
+        android:id="@+id/pref_Maths"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mathematics"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Kisw"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Kisw" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox4"
+        android:id="@+id/pref_Bio"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:text="Biology"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox11"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox11" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Phyc"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Phyc" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox5"
+        android:id="@+id/pref_Bst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Business Studies"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox7"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox7" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Agri"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Agri" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox6"
+        android:id="@+id/pref_Comp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Computer Studies"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox5"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox5" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Bst"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Bst" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/materialCheckBox9"
+        android:id="@+id/pref_Hist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History  Government"
         android:buttonTint="#000"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/materialCheckBox8"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox8" />
+        app:layout_constraintStart_toStartOf="@+id/pref_Geo"
+        app:layout_constraintTop_toBottomOf="@+id/pref_Geo" />
 
     <TextView
         android:id="@+id/textView2"
@@ -158,6 +158,6 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialCheckBox10"
+        app:layout_constraintTop_toBottomOf="@+id/pref_CRE"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
