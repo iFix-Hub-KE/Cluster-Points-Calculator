@@ -13,3 +13,5 @@ const val PREFERENCE_GEOGRAPHY= "com.example.clusterpointscalculator"
 const val PREFERENCE_HISTORY= "com.example.clusterpointscalculator"
 const val PREFERENCE_CRE= "com.example.clusterpointscalculator"
 
+
+
