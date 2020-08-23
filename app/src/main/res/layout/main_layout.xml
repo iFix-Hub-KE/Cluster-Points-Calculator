@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kiswahili"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox2"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox2"
@@ -21,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Physics"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox3"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox3" />
@@ -29,6 +31,7 @@
         android:id="@+id/materialCheckBox12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:buttonTint="#000"
         android:text="Chemistry"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox4"
@@ -39,6 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Agriculture"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox12"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox12" />
@@ -48,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Geography"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox6"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox6" />
@@ -58,6 +63,7 @@
         android:layout_height="wrap_content"
         android:text="C.R.E"
         android:textSize="18sp"
+        android:buttonTint="#000"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox9"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox9" />
 
@@ -69,6 +75,7 @@
         android:layout_marginLeft="64dp"
         android:layout_marginTop="8dp"
         android:text="English"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -78,6 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mathematics"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox" />
@@ -87,6 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:text="Biology"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox11"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox11" />
@@ -96,6 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Business Studies"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox7"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox7" />
@@ -105,6 +115,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Computer Studies"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox5"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox5" />
@@ -114,6 +125,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History  Government"
+        android:buttonTint="#000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/materialCheckBox8"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox8" />
@@ -122,19 +134,26 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:text="Select all subjects that you did in high school"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Next"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
