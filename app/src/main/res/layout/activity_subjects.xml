@@ -10,7 +10,7 @@
     <com.google.android.material.textfield.TextInputLayout
 
         android:id="@+id/maths"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:hint="Mathematics"
@@ -31,7 +31,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/english"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -50,7 +50,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/kiswahili"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:hint="Kiswahili"
@@ -69,7 +69,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/physics"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -88,7 +88,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/chem"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:hint="Physics"
@@ -107,7 +107,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/comp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -126,7 +126,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/geo"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:hint="Geography"
@@ -145,7 +145,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/cre"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -168,6 +168,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Calculate"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:background="@drawable/box"
+        android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/geo" />

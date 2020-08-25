@@ -9,9 +9,9 @@ import kotlinx.android.synthetic.main.activity_get_prefs.*
 class GetPrefs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_get_prefs)
+        setContentView(R.layout.activity_subjects)
 
-        val prefs: SharedPreferences = PreferenceHelper.defaultPrefs(applicationContext!!)
+        /*val prefs: SharedPreferences = PreferenceHelper.defaultPrefs(applicationContext!!)
         val val_Eng: Boolean? = prefs[PREFERENCE_ENGLISH]
         val val_Kis: Boolean? = prefs[PREFERENCE_KISWAHILI]
         val val_Maths: Boolean? = prefs[PREFERENCE_MATHEMATICS]
@@ -28,6 +28,6 @@ class GetPrefs : AppCompatActivity() {
 
         all_prefs.text = ("English $val_Eng Kiswahili $val_Kis Maths $val_Maths Bio " +
                 "$val_Bio  Phy $val_Phy Chem $val_Chem Bst $val_Bst Comp" +
-                " $val_Comp Agri $val_Agr Hist $val_His Geo $val_Geo CRE $val_Cre")
+                " $val_Comp Agri $val_Agr Hist $val_His Geo $val_Geo CRE $val_Cre")*/
     }
 }
